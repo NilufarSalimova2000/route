@@ -3,6 +3,8 @@ import style from "./home.module.scss"
 
 export const Home = () => {
     return (
-        <div>Home</div>
+        <div className="container">
+            <div className={style.wrapper}>Home</div>
+        </div>
     )
 }

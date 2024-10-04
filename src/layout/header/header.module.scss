@@ -9,3 +9,14 @@
     align-items: center;
     justify-content: center;
 }
+
+.link {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

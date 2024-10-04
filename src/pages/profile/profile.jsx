@@ -3,6 +3,8 @@ import style from "./profile.module.scss"
 
 export const  Profile = () => {
     return (
-        <div>Profile</div>
+        <div className="container">
+            <div className={style.title}>Profile</div>
+        </div>
     )
 }

@@ -3,6 +3,8 @@ import style from "./create-address.module.scss"
 
 export const CreateAddress = () => {
     return (
-        <div>CreateAddress</div>
+        <div className="container">
+            <div>CreateAddress</div>
+        </div>
     )
 }

@@ -13,15 +13,20 @@ export const User = () => {
             console.log(error.message);
         }
     };
-    React.useEffect(() =>{
+    React.useEffect(() => {
         getData();
     }, []);
-    
+
     return (
-        <div className={style.info}>
-            {data.map((item) => <Link key={item.id} to={`/user/detail/${item.id}`}>
-            <h2>{item.name}</h2>
-            </Link>)}
+        <div className="container">
+            <div className={style.wrapper}>
+                <div className={style.info}>
+                    {data.map((item) => <Link key={item.id} to={`/user/detail/${item.id}`}>
+                        <h2>{item.name}</h2>
+                    </Link>)}
+                </div>
+            </div>
+
         </div>
     )
 }

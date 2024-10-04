@@ -3,6 +3,8 @@ import style from "./change-profile.module.scss";
 
 export const ChangeProfile = () => {
     return (
-        <div>ChangeProfile</div>
+        <div>
+            <div className="container">ChangeProfile</div>
+        </div>
     )
 }

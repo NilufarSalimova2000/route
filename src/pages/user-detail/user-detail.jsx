@@ -13,10 +13,13 @@ export const UserDetail = () => {
     }, [])
 
     return (
-        <div>
-            <h2>{data.name}</h2>
-            <h2>{data.username}</h2>
-            <h2>{data.email}</h2>
+        <div className="container">
+            <div className={style.block}>
+                <h2>{data.name}</h2>
+                <h2>{data.username}</h2>
+                <h2>{data.email}</h2>
+                <h2>{data.phone}</h2>
+            </div>
         </div>
     )
 }

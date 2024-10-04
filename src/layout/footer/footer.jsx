@@ -3,6 +3,8 @@ import style from "./footer.module.scss";
 
 export const Footer = () => {
     return (
-        <div>Footer</div>
+        <div className="container">
+            <div className={style.wrapper}>Footer</div>
+        </div>
     )
 }
