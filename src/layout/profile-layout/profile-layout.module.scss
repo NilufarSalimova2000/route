@@ -1,0 +1,15 @@
+.profile_wrapper {
+    display: grid;
+    grid-template-columns:1fr, 4fr;
+    height: 100%;
+}
+
+.box_profile {
+    height: 100%;
+    background-color: bisque;
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
